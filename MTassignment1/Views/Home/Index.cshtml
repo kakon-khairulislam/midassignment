@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 style="color: green;">Zero Hunger</h1>
+    <p class="lead">
+        <h2>Welcome to our System .</h2>
+        <h3>We are here with an aim of feeding deprived people and children.</h3>
+    </p>
+    <p><a class="btn btn-primary btn-lg" @Html.ActionLink("Refresh ", "Index") </a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2 style="color: cornflowerblue;">Track Our live Process</h2>
+        <p>
+            Track Here to see how our work process is going!!
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Let's go ", "Track")></a></p>
+    </div>
+    <div class="col-md-4">
+        <h2 style="color: deepskyblue;">Help us with Food</h2>
+        <p>Join with us by sharing foods so that we can make the usage of wastage of tons of food by feeding deprived people and children before its get rotten</p>
+        <p><a class="btn btn-default" @Html.ActionLink("Proceed ", "System")> </a></p>
+    </div>
+    <div class="col-md-4">
+        <h2 style="color: red;">Admin Panel</h2>
+        <p>Entry Restricted.</p>
+        <p><a class="btn btn-default" @Html.ActionLink("Admin ", "Admin")> </a></p>
+    </div>
+</div>
